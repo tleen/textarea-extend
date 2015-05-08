@@ -1,0 +1,35 @@
+Future talk for SoME Webdev/Devops group.
+
+How to build a chrome extension.
+
+* What are they
+
+Pre-packaged web technologies that run in the browser context. HTML, JavaScript, Images and the removed of a lot of limitations which exist when using these technologies from your website.
+
+* Manifest
+
+The communication model for code meta information in this case is a "manifest.json" file. This is where you describe the extension and list the permissions the browsers will ask the user to grant your extension.
+
+https://developer.chrome.com/extensions/examples/tutorials/getstarted/manifest.json
+Is where you can get a copy of a default manifest.
+
+/Need to do a whole manifest thing/
+
+** name
+Is the name of your extension
+** description
+Details about the extension, shows up on extension search!(?)
+** Homepage url
+Where to get into about the exension
+** manifest_version
+is 2, absent is older and less stuff?
+** browser_action
+This portion of the manifest is novel. It represents things you may do often in an extension
+*** default_icon
+Lets you reference a .png file
+*** default_popup
+HTML file that runs when the default_icon is clicked
+
+* Specific Manifest
+
+This extension does not use pop-ups, its more anonymous.

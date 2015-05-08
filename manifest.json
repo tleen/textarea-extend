@@ -1,0 +1,16 @@
+{
+  "manifest_version": "2",
+
+  "name": "textarea-extend",
+  "description": "This extension adds some personal favorite ways of handling text to a HTML textfield.",
+  "version": "0.0.0",
+  "homepage_url" : "https://github.com/tleen/textarea-extend",
+
+  "content_scripts" : [{
+    "matches" : ["http://*/*", "https://*/*"],
+    "js" : [
+      "index.js"
+    ]
+  }]
+
+}
